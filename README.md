@@ -98,10 +98,6 @@ Feel free to:
 2. Create a feature branch
 3. Submit a pull request
 
-## License
-
-MIT License - feel free to use this project for your own learning and development!
-
 ## Author
 
 Created by Le'lah McKoy
