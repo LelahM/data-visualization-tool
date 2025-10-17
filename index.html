@@ -7,6 +7,7 @@
     <!-- Tailwind CSS via CDN -->
     <script>
       tailwind.config = {
+        darkMode: 'class', // Enable class-based dark mode
         theme: {
           extend: {
             colors: {
@@ -17,9 +18,7 @@
       }
     </script>
     <style>
-      body {
-        background-color: #FFF0F5;
-      }
+      /* body { background-color: #FFF0F5; } */
     </style>
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- React via CDN -->
@@ -29,6 +28,8 @@
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <!-- Chart.js -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- JSZip for ZIP file support -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
   </head>
   <body>
     <div id="root"></div>
